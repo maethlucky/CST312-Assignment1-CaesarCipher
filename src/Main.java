@@ -29,7 +29,7 @@ public class Main {
         // int that stores correct shift number
         int shift = 0;
         // Counts the number of words in the shifted text contained in the dictionary
-        int count = 0;
+        int count;
         // Returns true if over 75% of the words in the ciphertext are in the dictionary
         boolean flag = false;
 
