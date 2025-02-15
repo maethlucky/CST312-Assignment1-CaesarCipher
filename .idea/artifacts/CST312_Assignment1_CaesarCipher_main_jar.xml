@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CST312-Assignment1-CaesarCipher.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CST312_Assignment1_CaesarCipher_main_jar</output-path>
+    <root id="archive" name="CST312-Assignment1-CaesarCipher.main.jar">
+      <element id="module-output" name="CST312-Assignment1-CaesarCipher.main" />
+    </root>
+  </artifact>
+</component>

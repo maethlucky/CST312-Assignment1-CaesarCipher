@@ -59,13 +59,15 @@ public class Main {
         Scanner in = new Scanner (System.in);
         System.out.print("Please enter the name of the file you want to decode: ");
         String filename = in.nextLine().trim();
-        // This is the file the program will write to
-        // (Note: I used ChatGPT to get this regex to change the filename)
-        String outputFilename = filename.replaceFirst("(\\.\\w+)?$", "-solution.txt");
+        String outputFilename = null;
 
         try {
             FileReader fr = new FileReader(filename);
             Scanner fs = new Scanner(fr);
+
+            // This is the file the program will write to
+            // (Note: I used ChatGPT to get this regex to change the filename)
+            outputFilename = filename.replaceFirst("(\\.\\w+)?$", "-solution.txt");
 
             // Reading in ciphertexts
             while (fs.hasNextLine()) {
